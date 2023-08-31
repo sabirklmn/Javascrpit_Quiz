@@ -19,6 +19,13 @@ git checkout commitid= previous file head move // detached head
     git checkout master
 
 git diff = difference modified code +++signs
+     git diff = two commit id use differce use
+
+     git diff HEAD~1 HEAD use
+
+     git diff HEAD~1 HEAD --name-only   
+     using files only display
+
 
 
 
