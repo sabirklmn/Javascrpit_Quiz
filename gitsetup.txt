@@ -6,9 +6,13 @@ ls -all= hidden directory files
 
 git add filename  picking
 
+git add .  =all files picking
+
 
 git commit -m " message pass files refer"
 
 git log = all commit messages in see
+
+git checkout commitid= previous file head move // detached head
 
 
