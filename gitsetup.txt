@@ -1,0 +1,14 @@
+git status = using current 
+
+git init= create git directory
+
+ls -all= hidden directory files
+
+git add filename  picking
+
+
+git commit -m " message pass files refer"
+
+git log = all commit messages in see
+
+

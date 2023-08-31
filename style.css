@@ -4,3 +4,14 @@
     box-sizing: border-box;
     font-family: 'Poppins',snas-erif;
 }
+body{
+    background:  #b3d1ff;
+}
+.app{
+    background: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
