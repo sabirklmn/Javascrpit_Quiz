@@ -1,5 +1,7 @@
 git status = using current 
 
+git status or git branch = checking branch name
+
 git init= create git directory
 
 ls -all= hidden directory files
@@ -25,6 +27,9 @@ git diff = difference modified code +++signs
 
      git diff HEAD~1 HEAD --name-only   
      using files only display
+
+git restore =previous file headmove but all deletes after sections 
+    !!danger
 
 
 
