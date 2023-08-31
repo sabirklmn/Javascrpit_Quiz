@@ -15,4 +15,11 @@ git log = all commit messages in see
 
 git checkout commitid= previous file head move // detached head
 
+    return main head command
+    git checkout master
+
+git diff = difference modified code +++signs
+
+
+
 
