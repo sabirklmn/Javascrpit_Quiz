@@ -20,5 +20,30 @@ const questions = [
             
         ]
     },
+
+    {
+        question:"Which is largest desert in the world? ",
+        answers:[
+            {text:"Kalahari", correct: false},
+            {text:"Gobi", correct: false},
+            {text:"Sahara", correct: false},
+            {text:"Antarctica", correct: true},
+            
+        ]
+    },
     
-]
+
+
+    {
+        question:"Which is smallest contient in the world ",
+        answers:[
+            {text:"Asia", correct: false},
+            {text:"Austraila", correct: true},
+            {text:"Arctic", correct: false},
+            {text:"Africa", correct: false},
+            
+        ]
+    },
+    
+    
+];
