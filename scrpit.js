@@ -66,3 +66,22 @@ function startQuiz(){
 
 }
 
+function showQuestion(){
+    let currentquestion=questions[CurrentQuestionIndex];
+    let questionNo=CurrentQuestionIndex + 1;
+    questionElement.innerHTML=questionNo +". "+ currentquestion.question
+
+    currentquestion.answers.forEach(answer => {
+        const button =document.createElement("button");
+        button.innerHTML=answer.text;
+        button.classList.add("btn")
+        answerButton.appendChild(button);
+    }
+    
+    
+    
+    )
+    
+}
+
+startQuiz();
