@@ -54,5 +54,15 @@ const questionElement=document.getElementById("question");
 const answerButton=document.getElementById("answer-buttons");
 const nextButton=document.getElementById("next-btn");
 
+let CurrentQuestionIndex=0;
+let score=0;
 
+function startQuiz(){
+    CurrentQuestionIndex=0;
+    score=0;
+    nextButton.innerHTML("Next");
+    showQuestion()
+
+
+}
 
